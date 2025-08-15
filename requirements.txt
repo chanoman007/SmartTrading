@@ -1,0 +1,9 @@
+python-binance==1.0.17
+telebot
+pandas
+pandas_ta
+ta-lib
+scipy
+openai
+python-dotenv
+requests
