@@ -1,0 +1,56 @@
+{
+  "intervalo": "1m",
+  "simbolos": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "DOGEUSDT",
+    "BNBUSDT",
+    "ADAUSDT",
+    "LINKUSDT",
+    "AVAXUSDT",
+    "TONUSDT"
+  ],
+  "simbolos_recomendados": [
+    "BTCUSDT"
+  ],
+  "modo_estricto": false,
+  "fuerza_minima": "Media",
+  "min_confiabilidad_fuerte": 70,
+  "min_confiabilidad_media": 50,
+  "desviacion_maxima_rango": 0.15,
+  "permitir_override_en_rango": true,
+  "override_conf_min": 30,
+  "override_min_vol_rel": 0.8,
+  "override_min_rsi": 45,
+  "antiflood_cambio_precio_pct": 0.3,
+  "antiflood_minutos": 10,
+  "antiflood_por_intervalo": true,
+  "monto_inversion_usdt": 10,
+  "histeresis_confianza": 3.0,
+  "redondear_confianza": false,
+  "antiflood_min_variacion_pct": 0.5,
+  "log_filtro_temporal": true,
+  "log_margen_confianza": 2.0,
+  "pesos": {
+    "rsi_extremo": 5,
+    "macd_bajista": 10,
+    "ema_bajista": 10,
+    "volumen_bajo": 10,
+    "atr_bajo": 5,
+    "sin_patron": 5
+  },
+  "indicadores": {
+    "rsi_period": 14,
+    "rsi_overbought": 70,
+    "rsi_oversold": 30,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9,
+    "ema_short_period": 20,
+    "ema_long_period": 50,
+    "atr_period": 14,
+    "volume_relative_period": 20
+  }
+}
